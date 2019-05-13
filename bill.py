@@ -5,7 +5,8 @@ bill={"Gulshan":9896621213,"Mohan":9160706262}
 cust_name=input("enter the name")
 cust_details={}
 
-
+#Execute the below CREATE TABLE command only once. After the first time comment it out. Dont worry about how the other queries will work 
+#if there is no table. Upon execution of below lines of code a .db is produced. All your queries work on it.
 #c.execute("""CREATE TABLE customers(
 #            Name varchar,
 #            Phone_Number integer
