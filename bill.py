@@ -1,7 +1,7 @@
 import sqlite3
 conn=sqlite3.connect('bill.db')
 c=conn.cursor()
-bill={"Gulshan":9896621213,"Mohan":9160706262}
+bill={"ABC":123456789,"XYZ":987654321}
 cust_name=input("enter the name")
 cust_details={}
 
@@ -32,7 +32,7 @@ def billing1(name):
     print(data)
     print(len(data))
     if (len(data)!=0):
-        print("Fuck off")
+        print("No Data")
     else:
         cust_num=input("Enter your phone number")
         bill[name]=cust_num
